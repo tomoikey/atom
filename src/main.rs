@@ -7,10 +7,11 @@ use std::{
     ops::{Deref, DerefMut},
     ptr::NonNull,
     rc::Rc,
-    sync::{*, atomic::{*, Ordering::*}},
+    sync::{
+        atomic::{Ordering::*, *},
+        *,
+    },
     thread::{self, Thread},
 };
 
-fn main() {
-    println!("Hello, world!");
-}
+fn main() {}
